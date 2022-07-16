@@ -1,9 +1,3 @@
-//
-//  iDeafApp.swift
-//  iDeaf WatchKit Extension
-//
-//  Created by Vincenzo Emanuele Martone on 16/07/22.
-//
 
 import SwiftUI
 
