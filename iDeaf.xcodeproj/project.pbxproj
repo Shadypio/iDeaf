@@ -1,0 +1,819 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0022713028831B44001DBE2E /* iDeaf WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0022712F28831B44001DBE2E /* iDeaf WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0022713528831B45001DBE2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0022713428831B45001DBE2E /* Assets.xcassets */; };
+		0022713B28831B45001DBE2E /* iDeaf WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0022713A28831B45001DBE2E /* iDeaf WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0022714028831B45001DBE2E /* iDeafApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0022713F28831B45001DBE2E /* iDeafApp.swift */; };
+		0022714228831B45001DBE2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0022714128831B45001DBE2E /* ContentView.swift */; };
+		0022714428831B45001DBE2E /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0022714328831B45001DBE2E /* NotificationController.swift */; };
+		0022714628831B45001DBE2E /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0022714528831B45001DBE2E /* NotificationView.swift */; };
+		0022714828831B45001DBE2E /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0022714728831B45001DBE2E /* ComplicationController.swift */; };
+		0022714A28831B46001DBE2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0022714928831B46001DBE2E /* Assets.xcassets */; };
+		0022714D28831B46001DBE2E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0022714C28831B46001DBE2E /* Preview Assets.xcassets */; };
+		0022715928831B46001DBE2E /* iDeafTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0022715828831B46001DBE2E /* iDeafTests.swift */; };
+		0022716328831B46001DBE2E /* iDeafUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0022716228831B46001DBE2E /* iDeafUITests.swift */; };
+		0022716528831B46001DBE2E /* iDeafUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0022716428831B46001DBE2E /* iDeafUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0022713128831B44001DBE2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0022712528831B43001DBE2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0022712E28831B44001DBE2E;
+			remoteInfo = "iDeaf WatchKit App";
+		};
+		0022713C28831B45001DBE2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0022712528831B43001DBE2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0022713928831B45001DBE2E;
+			remoteInfo = "iDeaf WatchKit Extension";
+		};
+		0022715528831B46001DBE2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0022712528831B43001DBE2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0022713928831B45001DBE2E;
+			remoteInfo = "iDeaf WatchKit Extension";
+		};
+		0022715F28831B46001DBE2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0022712528831B43001DBE2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0022712E28831B44001DBE2E;
+			remoteInfo = "iDeaf WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0022716B28831B46001DBE2E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0022713B28831B45001DBE2E /* iDeaf WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0022716F28831B46001DBE2E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				0022713028831B44001DBE2E /* iDeaf WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0022712B28831B43001DBE2E /* iDeaf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDeaf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0022712F28831B44001DBE2E /* iDeaf WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iDeaf WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0022713428831B45001DBE2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0022713A28831B45001DBE2E /* iDeaf WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "iDeaf WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0022713F28831B45001DBE2E /* iDeafApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDeafApp.swift; sourceTree = "<group>"; };
+		0022714128831B45001DBE2E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0022714328831B45001DBE2E /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		0022714528831B45001DBE2E /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		0022714728831B45001DBE2E /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		0022714928831B46001DBE2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0022714C28831B46001DBE2E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0022714E28831B46001DBE2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0022714F28831B46001DBE2E /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		0022715428831B46001DBE2E /* iDeafTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iDeafTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0022715828831B46001DBE2E /* iDeafTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDeafTests.swift; sourceTree = "<group>"; };
+		0022715E28831B46001DBE2E /* iDeafUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iDeafUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0022716228831B46001DBE2E /* iDeafUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDeafUITests.swift; sourceTree = "<group>"; };
+		0022716428831B46001DBE2E /* iDeafUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDeafUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0022713728831B45001DBE2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0022715128831B46001DBE2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0022715B28831B46001DBE2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0022712428831B43001DBE2E = {
+			isa = PBXGroup;
+			children = (
+				0022713328831B44001DBE2E /* iDeaf WatchKit App */,
+				0022713E28831B45001DBE2E /* iDeaf WatchKit Extension */,
+				0022715728831B46001DBE2E /* iDeafTests */,
+				0022716128831B46001DBE2E /* iDeafUITests */,
+				0022712C28831B43001DBE2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0022712C28831B43001DBE2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0022712B28831B43001DBE2E /* iDeaf.app */,
+				0022712F28831B44001DBE2E /* iDeaf WatchKit App.app */,
+				0022713A28831B45001DBE2E /* iDeaf WatchKit Extension.appex */,
+				0022715428831B46001DBE2E /* iDeafTests.xctest */,
+				0022715E28831B46001DBE2E /* iDeafUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0022713328831B44001DBE2E /* iDeaf WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				0022713428831B45001DBE2E /* Assets.xcassets */,
+			);
+			path = "iDeaf WatchKit App";
+			sourceTree = "<group>";
+		};
+		0022713E28831B45001DBE2E /* iDeaf WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0022713F28831B45001DBE2E /* iDeafApp.swift */,
+				0022714128831B45001DBE2E /* ContentView.swift */,
+				0022714328831B45001DBE2E /* NotificationController.swift */,
+				0022714528831B45001DBE2E /* NotificationView.swift */,
+				0022714728831B45001DBE2E /* ComplicationController.swift */,
+				0022714928831B46001DBE2E /* Assets.xcassets */,
+				0022714E28831B46001DBE2E /* Info.plist */,
+				0022714F28831B46001DBE2E /* PushNotificationPayload.apns */,
+				0022714B28831B46001DBE2E /* Preview Content */,
+			);
+			path = "iDeaf WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		0022714B28831B46001DBE2E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0022714C28831B46001DBE2E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0022715728831B46001DBE2E /* iDeafTests */ = {
+			isa = PBXGroup;
+			children = (
+				0022715828831B46001DBE2E /* iDeafTests.swift */,
+			);
+			path = iDeafTests;
+			sourceTree = "<group>";
+		};
+		0022716128831B46001DBE2E /* iDeafUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0022716228831B46001DBE2E /* iDeafUITests.swift */,
+				0022716428831B46001DBE2E /* iDeafUITestsLaunchTests.swift */,
+			);
+			path = iDeafUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0022712A28831B43001DBE2E /* iDeaf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0022717028831B46001DBE2E /* Build configuration list for PBXNativeTarget "iDeaf" */;
+			buildPhases = (
+				0022712928831B43001DBE2E /* Resources */,
+				0022716F28831B46001DBE2E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0022713228831B44001DBE2E /* PBXTargetDependency */,
+			);
+			name = iDeaf;
+			productName = iDeaf;
+			productReference = 0022712B28831B43001DBE2E /* iDeaf.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		0022712E28831B44001DBE2E /* iDeaf WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0022716C28831B46001DBE2E /* Build configuration list for PBXNativeTarget "iDeaf WatchKit App" */;
+			buildPhases = (
+				0022712D28831B44001DBE2E /* Resources */,
+				0022716B28831B46001DBE2E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0022713D28831B45001DBE2E /* PBXTargetDependency */,
+			);
+			name = "iDeaf WatchKit App";
+			productName = "iDeaf WatchKit App";
+			productReference = 0022712F28831B44001DBE2E /* iDeaf WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		0022713928831B45001DBE2E /* iDeaf WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0022716828831B46001DBE2E /* Build configuration list for PBXNativeTarget "iDeaf WatchKit Extension" */;
+			buildPhases = (
+				0022713628831B45001DBE2E /* Sources */,
+				0022713728831B45001DBE2E /* Frameworks */,
+				0022713828831B45001DBE2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iDeaf WatchKit Extension";
+			productName = "iDeaf WatchKit Extension";
+			productReference = 0022713A28831B45001DBE2E /* iDeaf WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		0022715328831B46001DBE2E /* iDeafTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0022717328831B46001DBE2E /* Build configuration list for PBXNativeTarget "iDeafTests" */;
+			buildPhases = (
+				0022715028831B46001DBE2E /* Sources */,
+				0022715128831B46001DBE2E /* Frameworks */,
+				0022715228831B46001DBE2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0022715628831B46001DBE2E /* PBXTargetDependency */,
+			);
+			name = iDeafTests;
+			productName = iDeafTests;
+			productReference = 0022715428831B46001DBE2E /* iDeafTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0022715D28831B46001DBE2E /* iDeafUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0022717628831B46001DBE2E /* Build configuration list for PBXNativeTarget "iDeafUITests" */;
+			buildPhases = (
+				0022715A28831B46001DBE2E /* Sources */,
+				0022715B28831B46001DBE2E /* Frameworks */,
+				0022715C28831B46001DBE2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0022716028831B46001DBE2E /* PBXTargetDependency */,
+			);
+			name = iDeafUITests;
+			productName = iDeafUITests;
+			productReference = 0022715E28831B46001DBE2E /* iDeafUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0022712528831B43001DBE2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					0022712A28831B43001DBE2E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					0022712E28831B44001DBE2E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					0022713928831B45001DBE2E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					0022715328831B46001DBE2E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 0022713928831B45001DBE2E;
+					};
+					0022715D28831B46001DBE2E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 0022712E28831B44001DBE2E;
+					};
+				};
+			};
+			buildConfigurationList = 0022712828831B43001DBE2E /* Build configuration list for PBXProject "iDeaf" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0022712428831B43001DBE2E;
+			productRefGroup = 0022712C28831B43001DBE2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0022712A28831B43001DBE2E /* iDeaf */,
+				0022712E28831B44001DBE2E /* iDeaf WatchKit App */,
+				0022713928831B45001DBE2E /* iDeaf WatchKit Extension */,
+				0022715328831B46001DBE2E /* iDeafTests */,
+				0022715D28831B46001DBE2E /* iDeafUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0022712928831B43001DBE2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0022712D28831B44001DBE2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0022713528831B45001DBE2E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0022713828831B45001DBE2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0022714D28831B46001DBE2E /* Preview Assets.xcassets in Resources */,
+				0022714A28831B46001DBE2E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0022715228831B46001DBE2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0022715C28831B46001DBE2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0022713628831B45001DBE2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0022714428831B45001DBE2E /* NotificationController.swift in Sources */,
+				0022714228831B45001DBE2E /* ContentView.swift in Sources */,
+				0022714828831B45001DBE2E /* ComplicationController.swift in Sources */,
+				0022714028831B45001DBE2E /* iDeafApp.swift in Sources */,
+				0022714628831B45001DBE2E /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0022715028831B46001DBE2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0022715928831B46001DBE2E /* iDeafTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0022715A28831B46001DBE2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0022716528831B46001DBE2E /* iDeafUITestsLaunchTests.swift in Sources */,
+				0022716328831B46001DBE2E /* iDeafUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0022713228831B44001DBE2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0022712E28831B44001DBE2E /* iDeaf WatchKit App */;
+			targetProxy = 0022713128831B44001DBE2E /* PBXContainerItemProxy */;
+		};
+		0022713D28831B45001DBE2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0022713928831B45001DBE2E /* iDeaf WatchKit Extension */;
+			targetProxy = 0022713C28831B45001DBE2E /* PBXContainerItemProxy */;
+		};
+		0022715628831B46001DBE2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0022713928831B45001DBE2E /* iDeaf WatchKit Extension */;
+			targetProxy = 0022715528831B46001DBE2E /* PBXContainerItemProxy */;
+		};
+		0022716028831B46001DBE2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0022712E28831B44001DBE2E /* iDeaf WatchKit App */;
+			targetProxy = 0022715F28831B46001DBE2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0022716628831B46001DBE2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0022716728831B46001DBE2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0022716928831B46001DBE2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iDeaf WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iDeaf WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "iDeaf WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.unisa.applefoundationprogram.iDeaf.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		0022716A28831B46001DBE2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iDeaf WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iDeaf WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "iDeaf WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.unisa.applefoundationprogram.iDeaf.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		0022716D28831B46001DBE2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = iDeaf_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "iDeaf WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.unisa.applefoundationprogram.iDeaf.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		0022716E28831B46001DBE2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = iDeaf_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "iDeaf WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.unisa.applefoundationprogram.iDeaf.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		0022717128831B46001DBE2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.unisa.applefoundationprogram.iDeaf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0022717228831B46001DBE2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.unisa.applefoundationprogram.iDeaf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0022717428831B46001DBE2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.unisa.applefoundationprogram.iDeafTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iDeaf WatchKit Extension.appex/iDeaf WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		0022717528831B46001DBE2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.unisa.applefoundationprogram.iDeafTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iDeaf WatchKit Extension.appex/iDeaf WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		0022717728831B46001DBE2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.unisa.applefoundationprogram.iDeafUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "iDeaf WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		0022717828831B46001DBE2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.unisa.applefoundationprogram.iDeafUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "iDeaf WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0022712828831B43001DBE2E /* Build configuration list for PBXProject "iDeaf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0022716628831B46001DBE2E /* Debug */,
+				0022716728831B46001DBE2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0022716828831B46001DBE2E /* Build configuration list for PBXNativeTarget "iDeaf WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0022716928831B46001DBE2E /* Debug */,
+				0022716A28831B46001DBE2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0022716C28831B46001DBE2E /* Build configuration list for PBXNativeTarget "iDeaf WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0022716D28831B46001DBE2E /* Debug */,
+				0022716E28831B46001DBE2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0022717028831B46001DBE2E /* Build configuration list for PBXNativeTarget "iDeaf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0022717128831B46001DBE2E /* Debug */,
+				0022717228831B46001DBE2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0022717328831B46001DBE2E /* Build configuration list for PBXNativeTarget "iDeafTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0022717428831B46001DBE2E /* Debug */,
+				0022717528831B46001DBE2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0022717628831B46001DBE2E /* Build configuration list for PBXNativeTarget "iDeafUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0022717728831B46001DBE2E /* Debug */,
+				0022717828831B46001DBE2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0022712528831B43001DBE2E /* Project object */;
+}
